@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 }
 
 ul {
@@ -18,6 +19,7 @@ a {
     color: #E5E7EB;
 }
 
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -30,7 +32,8 @@ a {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 100px 200px;
+    gap: 48px;
 }
 
 .header-logo {
@@ -54,3 +57,29 @@ a {
     color: white;
     margin-top: 16px;
 }
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.small-pic {
+    width: 150px;
+    height: 150px;
+}
+
