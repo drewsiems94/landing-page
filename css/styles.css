@@ -52,10 +52,16 @@ a {
     color: #E5E7EB;
 }
 
-.sign-up {
+.sign-up,
+.sign-up-bottom {
     background-color: #3882F6;
     color: white;
     margin-top: 16px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .random {
@@ -108,3 +114,27 @@ a {
     font-weight: bold;
     margin-top: 8px;
 }
+
+.section-four {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-radius: 5px;
+    padding: 50px;
+    align-items: center;
+}
+
+.call-small {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.call-big {
+    color: #F9FAf8;
+    font-size: 20px;
+}
+
