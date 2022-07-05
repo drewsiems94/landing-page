@@ -54,6 +54,8 @@ a {
 
 .sign-up,
 .sign-up-bottom {
+    border-style: solid;
+    font-weight: bold;
     background-color: #3882F6;
     color: white;
     margin-top: 16px;
@@ -145,4 +147,12 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 35px;
+}
+
+.sign-up-bottom {
+    border-color: white;
+}
+
+.sign-up {
+    border-color: #3882F6;
 }
